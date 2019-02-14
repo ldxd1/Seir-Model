@@ -179,7 +179,7 @@ class Seir(QMainWindow):
         self.statusbar = self.statusBar()
         # 设置主窗口大小，居中，标题
         self.setGeometry(300, 300, 1280, 720)
-        self.setMinimumSize(1280, 720)
+        # self.setMinimumSize(1280, 720)
         qr = self.frameGeometry()
         cp = QDesktopWidget().availableGeometry().center()
         qr.moveCenter(cp)
